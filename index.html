@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>NETFLIX</title>
+  </head>
+  <body>
+    <div class="netflix">
+      <div class="container">
+        <div class="row">
+          <div class="navbar d-flex justify-content-between">
+            <div class="logo">
+              <img src="./img/Netflix-Logo.png" id="logo" />
+            </div>
+            <div class="d-flex">
+              <select class="lengu me-4">
+                <option value="UZB"><i class="fa-solid fa-globe" sellected></i>Узбекский</option>
+                <option value="ENG"><i class="fa-solid fa-globe"></i>Английский</option>
+                <option value="Ru"><i class="fa-solid fa-globe"></i>Русский</option>
+              </select>
+              <button class="btn btn-danger "><a class="text-decoration-none text-white" href="./html/index.html">Войти</a></button>
+            </div>
+          </div>
+        </div>
+        <!-- row 2 -->
+        <div class="row">
+          <div class="main text-center text-white">
+            <h1>
+              Фильмы, сериалы и многое другое без <br />
+              ограничений.
+            </h1>
+            <p>Смотрите где угодно. Отменить подписку можно в любое время.</p>
+            <p>
+              Готовы смотреть? Введите адрес электронной почты, чтобы оформить
+              или возобновить <br />
+              подписку.
+            </p>
+            <form action="#" class="d-flex justify-content-center">
+              <input
+                type="email"
+                class="form-control me-3 text-white"
+                id="email-input"
+                placeholder="Адрес электронной почты"
+              />
+              <button class="btn btn-danger" id="email-submit" type="submit">
+                Начать смотреть<i class="fa-solid fa-angle-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="netflix-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 text-white">
+            <h1>
+              Смотрите на <br />
+              телевизоре.
+            </h1>
+            <p>
+              Смотрите на Smart TV, PlayStation, Xbox, <br />
+              Chromecast, Apple TV, плеерах Blu-ray и других <br />
+              устройствах.
+            </p>
+          </div>
+          <div class="col-6">
+            <video autoplay muted loop height="258px" width="417px">
+              <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                type="video/mp4"
+              />
+            </video>
+            <img src="./img/tv.png" class="tv" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main-2 -->
+    <div class="netflix-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="./img/mobile.jpg" class="mobile" />
+            <div class="BOX">
+              <div class="row">
+                <div class="col-2">
+                  <img src="./img/boxshot.png" />
+                </div>
+                <div class="col-7">
+                  <h4 class="text-white">Очень странные дела</h4>
+                  <p class="text-primary">Идет загрузка...</p>
+                </div>
+                <div class="col-3">
+                  <img src="./img/GIF.gif" class="w-50" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 text-white">
+            <h2>
+              Загружайте сериалы <br />
+              для просмотра офлайн.
+            </h2>
+            <p>
+              Сохраняйте видео в избранном, и у вас всегда <br />
+              будет, что посмотреть.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="netflix-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 text-white p-5">
+            <h1>Смотрите где угодно.</h1>
+            <p>
+              Смотрите фильмы и сериалы на <br />
+              телефоне, планшете, ноутбуке и телевизоре без <br />
+              ограничений и без дополнительной платы.
+            </p>
+          </div>
+          <div class="col-6">
+            <video autoplay muted loop width="400px">
+              <source src="./img/video-apel.m4v" />
+            </video>
+            <img src="./img/apple-tv.png" class="appl" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="netflix-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="./img/cids.png" class="cids" />
+          </div>
+          <div class="col-6 text-white">
+            <h1>
+              Создавайте профили <br />
+              для детей.
+            </h1>
+            <p>
+              Подарите детям мир приключений с их любимыми <br />
+              героями. Он создан специально для них и уже <br />
+              доступен с вашей подпиской.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="netflix-main h-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center text-white my-5">
+              Распространенные вопросы
+            </h1>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Что из себя представляет Netflix?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body h3">
+                    Netflix — это стриминговый сервис,&nbsp;позволяющий смотреть
+                    разнообразные удостоенные наград
+                    фильмы,&nbsp;сериалы,&nbsp;аниме,&nbsp;документальные фильмы
+                    и многое другое на тысячах устройств с подключением к
+                    интернету.<br /><br />Вы можете смотреть сколько угодно
+                    и&nbsp;когда угодно без рекламы по фиксированной низкой цене
+                    за месяц. Вы всегда сможете найти что-нибудь новое&nbsp;— мы
+                    добавляем сериалы и фильмы каждую неделю!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Сколько стоит Netflix?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body h3">
+                    Netflix — это стриминговый сервис,&nbsp;позволяющий смотреть
+                    разнообразные удостоенные наград
+                    фильмы,&nbsp;сериалы,&nbsp;аниме,&nbsp;документальные фильмы
+                    и многое другое на тысячах устройств с подключением к
+                    интернету.<br /><br />Вы можете смотреть сколько угодно
+                    и&nbsp;когда угодно без рекламы по фиксированной низкой цене
+                    за месяц. Вы всегда сможете найти что-нибудь новое&nbsp;— мы
+                    добавляем сериалы и фильмы каждую неделю!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Где смотреть?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body h3">
+                    Netflix — это стриминговый сервис,&nbsp;позволяющий смотреть
+                    разнообразные удостоенные наград
+                    фильмы,&nbsp;сериалы,&nbsp;аниме,&nbsp;документальные фильмы
+                    и многое другое на тысячах устройств с подключением к
+                    интернету.<br /><br />Вы можете смотреть сколько угодно
+                    и&nbsp;когда угодно без рекламы по фиксированной низкой цене
+                    за месяц. Вы всегда сможете найти что-нибудь новое&nbsp;— мы
+                    добавляем сериалы и фильмы каждую неделю!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Как отменить подписку?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body h3">
+                    Netflix — это стриминговый сервис,&nbsp;позволяющий смотреть
+                    разнообразные удостоенные наград
+                    фильмы,&nbsp;сериалы,&nbsp;аниме,&nbsp;документальные фильмы
+                    и многое другое на тысячах устройств с подключением к
+                    интернету.<br /><br />Вы можете смотреть сколько угодно
+                    и&nbsp;когда угодно без рекламы по фиксированной низкой цене
+                    за месяц. Вы всегда сможете найти что-нибудь новое&nbsp;— мы
+                    добавляем сериалы и фильмы каждую неделю!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Что можно посмотреть на Netflix?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body h3">
+                    Netflix — это стриминговый сервис,&nbsp;позволяющий смотреть
+                    разнообразные удостоенные наград
+                    фильмы,&nbsp;сериалы,&nbsp;аниме,&nbsp;документальные фильмы
+                    и многое другое на тысячах устройств с подключением к
+                    интернету.<br /><br />Вы можете смотреть сколько угодно
+                    и&nbsp;когда угодно без рекламы по фиксированной низкой цене
+                    за месяц. Вы всегда сможете найти что-нибудь новое&nbsp;— мы
+                    добавляем сериалы и фильмы каждую неделю!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Подходит ли контент Netflix для детей?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body h3">
+                    Netflix — это стриминговый сервис,&nbsp;позволяющий смотреть
+                    разнообразные удостоенные наград
+                    фильмы,&nbsp;сериалы,&nbsp;аниме,&nbsp;документальные фильмы
+                    и многое другое на тысячах устройств с подключением к
+                    интернету.<br /><br />Вы можете смотреть сколько угодно
+                    и&nbsp;когда угодно без рекламы по фиксированной низкой цене
+                    за месяц. Вы всегда сможете найти что-нибудь новое&nbsp;— мы
+                    добавляем сериалы и фильмы каждую неделю!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-2">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Почему текст отображается на этом языке?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body h3">
+                    Этот язык выбран в настройках вашего браузера.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="text-center text-white p-5">
+              Готовы смотреть? Введите адрес электронной почты, чтобы оформить
+              или возобновить <br />
+              подписку.
+            </h3>
+            <form action="#" class="d-flex justify-content-center">
+              <input
+                type="email"
+                class="form-control me-3 text-white"
+                id="email-input"
+                placeholder="Адрес электронной почты"
+              />
+              <button class="btn btn-danger" id="email-submit" type="submit">
+                Начать смотреть<i class="fa-solid fa-angle-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="netflix-main border-0">
+      <div class="container">
+        <div class="row">
+          <div class=" footer col-12 d-flex align-items-center">
+            <div class="col-4">
+              <ul class="list-inline">
+                <li class="my-5">
+                  <a href="#">Есть вопросы? Свяжитесь с нами.</a>
+                </li>
+                <li><a href="#">Распространенные вопросы</a></li>
+                <li><a href="#">Аккаунт</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Конфиденциальность</a></li>
+                <li><a href="#">Свяжитесь с нами</a></li>
+                <li><a href="#">Только на Netflix</a></li>
+              </ul>
+
+              <select class="lengu my-3">
+                <option value="UZB">Узбекский</option>
+                <option value="ENG">Английский</option>
+                <option value="Ru">Русский</option>
+              </select>
+              <h6 class="text-white">Netflix Узбекистан</h6>
+            </div>
+            <!-- col 2 -->
+            <div class="col-4">
+              <ul class="list-inline">
+                <li><a href="#"> Правила использования подарочных карт</a></li>
+                <li><a href="#"> Медиацентр</a></li>
+                <li><a href="#">Способы просмотра</a></li>
+                <li><a href="#"> Настройки файлов cookie</a></li>
+                <li><a href="#"> Проверка скорости</a></li>
+              </ul>
+            </div>
+            <!-- col 3 -->
+            <div class="col-4">
+              <ul class="list-inline">
+                <li><a href="#"> Центр поддержки</a></li>
+                <li><a href="#"> Для инвесторов</a></li>
+                <li><a href="#"> Правила использования</a></li>
+                <li><a href="#"> Корпоративная информация</a></li>
+                <li><a href="#"> Юридические уведомления</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>

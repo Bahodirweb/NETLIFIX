@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.netflix {
+  background-image: url(..//img/bg-animate3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+ height: 114vh;
+}
+
+.logo {
+  height: 160px;
+}
+
+.card {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+
+.card .user-box {
+  position: relative;
+}
+
+.card .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 30px;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid white;
+  outline: none;
+
+}
+
+.card .user-box label {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+
+}
+
+
+
+
+
+.card .user-box input:focus~label,
+.card .user-box input:valid~label {
+  top: -20px;
+  left: 0;
+  color: aqua;
+  font-size: 12px;
+}
+.card .user-box span{
+  position: absolute;
+  color:red;
+  left: 0;
+  top: 65%;
+  font-size: 12px;
+}
+.card .user-box input.err{
+  border-bottom: 2px solid red;
+}
+.card .user-box input.valid{
+  border-bottom: 2px solid green;
+}
+
+#submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.brand {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.brand a {
+  color: white;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 29px;
+
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 10px #1ed00e, 0 0 30px #063002, 0 0 80px #ec1313,
+    0 0 100px #ee0d2b;
+}
+
+#googl {
+  animation-delay: 0.3s;
+}
+
+#facebook {
+  animation-delay: 0.7s;
+}
+
+#telegram {
+  animation-delay: 0.1s;
+
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@media (max-width: 756px) {
+  .container a {
+    width: 100%;
+  }
+
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+
+.footer a {
+  text-decoration: none;
+  color: silver;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.lengu {
+  width: 150px;
+  height: 45px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+}

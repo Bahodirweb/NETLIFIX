@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="" />
+    <title>Autorisetsiya</title>
+  </head>
+
+  <body>
+    <div class="netflix">
+      <div class="head">
+        <a href="../index.html"
+          ><img src="..//img/Netflix-Logo.png" class="logo"
+        /></a>
+      </div>
+
+      <div class="card mx-auto p-5">
+        <h1 class="text-white text-center">Войти</h1>
+        <form>
+          <div class="user-box my-3">
+            <input type="email" name="email" id="text" required />
+            <label>электронной почты</label>
+            <span id="err"></span>
+          </div>
+          <div class="user-box my-3">
+            <input type="password" name="password" id="password" required />
+            <label> пароль</label>
+            <span id="err2"></span>
+          </div>
+          <button type="submit" id="submit-btn">Войти</button>
+        </form>
+
+        <p class="text-light text-start my-5">
+          Впервые на Netflix? <a href="#">Зарегистрируйтесь сейчас.</a>
+        </p>
+
+        <div class="brand my-3">
+          <a href=""><i class="fa-brands fa-google"></i></a>
+          <a href=""><i class="fa-brands fa-telegram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="footer my-5 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex align-items-center">
+              <div class="col-3">
+                <ul class="list-inline">
+                  <li class="my-5">
+                    <a href="#">Есть вопросы? Свяжитесь с нами.</a>
+                  </li>
+                  <li><a href="#">Распространенные вопросы</a></li>
+                  <li><a href="#">Настройки файлов cookie</a></li>
+                </ul>
+
+                <select class="lengu my-3">
+                  <i class="fa-solid fa-globe">
+                    <option value="UZB">Узбекский</option></i
+                  >
+                  <option value="ENG">Английский</option>
+                  <option value="Ru">Русский</option>
+                </select>
+                <h6 class="text-white">Netflix Узбекистан</h6>
+              </div>
+
+              <!-- col 2 -->
+
+              <div class="col-3">
+                <ul class="list-inline">
+                  <li><a href="#"> Центр поддержки</a></li>
+                  <li><a href="#"> Корпоративная информация</a></li>
+                </ul>
+              </div>
+              <!-- col 3 -->
+              <div class="col-3">
+                <ul class="list-inline">
+                  <li><a href="#"> Правила использования</a></li>
+                </ul>
+              </div>
+              <!-- col 4 -->
+              <div class="col-3">
+                <ul class="list-inline">
+                  <li><a href="#"> Конфиденциальность</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../plagin.js"></script>
+  <script src="../app.js"></script>
+</html>
